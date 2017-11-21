@@ -1,0 +1,9 @@
+Assercje JUNIT:
+http://junit.sourceforge.net/javadoc/org/junit/Assert.html
+
+Adnotacje JUNIT:
+@Test
+@BeforeClass
+@AfterClass
+@Before
+@After
