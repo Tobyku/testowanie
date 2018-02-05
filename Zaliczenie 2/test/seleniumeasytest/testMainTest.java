@@ -22,13 +22,12 @@ import org.openqa.selenium.support.PageFactory;
 public class testMainTest {
      
         @Before
-	public void setUp()
-	{
-            //String exePath = "C:\\Users\\Tobiasz\\Desktop\\Studia\\chromedriver.exe";
-            //System.setProperty("webdriver.chrome.driver", exePath);
+        public void setUp(){
+            String exePath = "C:\\chromedriver.exe";
+            System.setProperty("webdriver.chrome.driver", exePath);
             
-            System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-	}
+            //System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+        }
         
         @Test
         public void testPage1() throws InterruptedException{
